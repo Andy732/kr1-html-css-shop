@@ -30,3 +30,7 @@
 
 Создана базовая структура проекта.
 
+## Ссылка на опубликованный проект
+
+GitHub Pages: https://andy732.github.io/kr1-html-css-shop/
+
