@@ -22,6 +22,8 @@
             <ul class="site-nav__list">
                 <li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+                <li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li>
+                <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заказ</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="index.html#advantages">Преимущества</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="index.html#popular">Популярные товары</a></li>
@@ -41,9 +43,8 @@
     <section class="section">
         <h1 class="section__title">Каталог товаров</h1>
         <p class="section__text">
-            На этой странице представлен учебный каталог товаров.
-            В дальнейшем здесь будут добавлены фильтры, сортировка и более
-            подробные карточки.
+            Выберите товар, чтобы открыть его характеристики и перейти
+            к оформлению заявки.
         </p>
     </section>
 
@@ -93,25 +94,29 @@
 
             <div class="products-grid">
 
-                <article class="product-card">
+                <article class="product-card product-card--popular">
+                    <span class="product-card__badge">Хит</span>
                     <h3 class="product-card__title">Товар 1</h3>
                     <p class="product-card__description">Краткое описание учебного товара.</p>
                     <p class="product-card__price">Цена: 1000 руб.</p>
-                    <a class="button product-card__button" href="index.html#popular">Подробнее</a>
+                    <a class="button product-card__button" href="product.html">Подробнее</a>
+                    <a class="button product-card__button" href="order.html">Заказать</a>
                 </article>
 
                 <article class="product-card">
                     <h3 class="product-card__title">Товар 2</h3>
                     <p class="product-card__description">Краткое описание учебного товара.</p>
                     <p class="product-card__price">Цена: 1500 руб.</p>
-                    <a class="button product-card__button" href="index.html#popular">Подробнее</a>
+                    <a class="button product-card__button" href="product.html">Подробнее</a>
+                    <a class="button product-card__button" href="order.html">Заказать</a>
                 </article>
 
                 <article class="product-card">
                     <h3 class="product-card__title">Товар 3</h3>
                     <p class="product-card__description">Краткое описание учебного товара.</p>
                     <p class="product-card__price">Цена: 2000 руб.</p>
-                    <a class="button product-card__button" href="index.html#popular">Подробнее</a>
+                    <a class="button product-card__button" href="product.html">Подробнее</a>
+                    <a class="button product-card__button" href="order.html">Заказать</a>
                 </article>
 
             </div>
