@@ -23,6 +23,8 @@
             <ul class="site-nav__list">
                 <li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+                <li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li>
+                <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заказ</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="index.html#advantages">Преимущества</a></li>
                 <li class="site-nav__item"><a class="site-nav__link" href="index.html#popular">Популярные товары</a></li>
@@ -38,9 +40,8 @@
     <section class="hero">
         <h1 class="hero__title">Учебный интернет-магазин</h1>
         <p class="hero__text">
-            Это стартовая страница учебного frontend-проекта.
-            В дальнейшем на её основе будет разработан многостраничный сайт
-            интернет-магазина или каталога услуг.
+            Здесь собраны каталог, карточка товара, форма заказа и контакты
+            учебного интернет-магазина.
         </p>
         <a class="button hero__button" href="#popular">Перейти к товарам</a>
     </section>
@@ -59,10 +60,12 @@
         <h2 class="section__title">Популярные товары</h2>
 
         <div class="products-grid">
-            <article class="product-card">
+            <article class="product-card product-card--popular">
+                <span class="product-card__badge">Хит</span>
                 <h3 class="product-card__title">Товар 1</h3>
                 <p class="product-card__description">Краткое описание учебного товара.</p>
                 <p class="product-card__price">Цена: 1000 руб.</p>
+                <a class="button product-card__button" href="product.html">Подробнее</a>
                 <button class="button product-card__button" type="button" data-product="Товар 1">
                     Заказать
                 </button>
@@ -92,9 +95,8 @@
     <aside class="student-info">
         <h2 class="student-info__title">Информация для студентов</h2>
         <p class="student-info__text">
-            На следующих практических занятиях этот проект будет расширяться:
-            появятся формы, модальное окно, дополнительные страницы, Flex/Grid,
-            БЭМ-структура и адаптивная версия сайта.
+            Проект демонстрирует многостраничную структуру, каталог, карточку
+            товара, форму заявки и основные возможности HTML и CSS.
         </p>
     </aside>
 

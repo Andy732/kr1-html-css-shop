@@ -181,6 +181,7 @@ a:focus-visible,
 }
 
 .product-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: var(--space-sm);
@@ -188,6 +189,22 @@ a:focus-visible,
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
     background-color: var(--color-bg);
+}
+
+.product-card--popular {
+    padding-top: calc(var(--space-xl) + var(--space-sm));
+}
+
+.product-card__badge {
+    position: absolute;
+    top: var(--space-sm);
+    right: var(--space-sm);
+    padding: var(--space-xs) var(--space-sm);
+    color: #ffffff;
+    background-color: var(--color-danger);
+    border-radius: var(--radius-sm);
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .product-card:hover {
@@ -342,6 +359,38 @@ a:focus-visible,
     flex-wrap: wrap;
     gap: var(--space-md);
     margin-top: var(--space-lg);
+}
+
+.order-form--page {
+    max-width: 620px;
+}
+
+/* Таблица характеристик */
+.product-table {
+    width: 100%;
+    max-width: 720px;
+    margin-top: var(--space-xl);
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.product-table__caption {
+    margin-bottom: var(--space-sm);
+    font-weight: 700;
+    text-align: left;
+}
+
+.product-table__cell {
+    padding: var(--space-sm) var(--space-md);
+    border: 1px solid var(--color-border);
+}
+
+.product-table__cell--heading {
+    background-color: var(--color-surface);
+}
+
+.product-table__row:nth-child(even) {
+    background-color: var(--color-surface-accent);
 }
 
 .success-message {
